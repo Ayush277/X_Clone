@@ -1,0 +1,19 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css",
+    "watch": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A brief description of your project",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7",
+    "nodemon": "^2.0.15"
+  }
+}
